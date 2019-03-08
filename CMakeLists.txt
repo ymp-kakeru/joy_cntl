@@ -8,6 +8,8 @@ find_package(catkin REQUIRED COMPONENTS
   joy
 )
 
+include_directories(${catkin_INCLUDE_DIRS})
+
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES joy_cntl
